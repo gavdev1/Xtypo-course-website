@@ -1,0 +1,35 @@
+@use "../custom" as *;
+
+.header{
+  background-position: center;
+  background-size: cover;
+
+  @include media-breakpoint-up(md){
+  	background-image: url("../../img/background.png");
+  }
+}
+
+.nav{
+	.bar{
+		width: 50px;
+		right: 1em;
+	}
+
+	.logo{
+		width: 100px;
+	}
+
+	.offcanvas-bar{
+		width: 60px;
+		height: 60px;
+		opacity: 1;
+		position: absolute;
+		top: 1em;
+		right: 1em;
+		cursor: pointer;
+	}
+}
+
+.social-icon{
+	width: 25px;
+}

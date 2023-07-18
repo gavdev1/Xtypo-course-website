@@ -1,0 +1,24 @@
+@use "../custom" as *;
+
+.text-home::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: $primary;
+  display: block;
+  margin-block: 1em;
+}
+
+.text-home::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: $primary;
+  display: block;
+  margin-block: 1em;
+}
+
+.text-home--right::before,
+.text-home--right::after{
+  margin-left: auto;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xtypo</title>
+  <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+
+<body>
+  <div class="position-fixed top-50 d-flex flex-column gap-4 ms-2">
+    <img class="social-icon" src="assets/img/facebook.png" alt="facebook">
+    <img class="social-icon" src="assets/img/instagram.png" alt="facebook">
+    <img class="social-icon" src="assets/img/twitter.png" alt="facebook">
+    <img class="social-icon" src="assets/img/linkedin.png" alt="facebook">
+  </div>
+  <header class="container-fluid header">
+    <nav class="nav d-flex justify-content-between align-items-center container-xl">
+      <img class="logo" src="assets/img/logo.png" alt="logo" />
+
+      
+
+      <img class="bar position-fixed" src="assets/img/menu.png" alt="menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" />    
+      <div class="offcanvas offcanvas-end bg-primary" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <img src="assets/img/menu.png" class="btn-close offcanvas-bar" data-bs-dismiss="offcanvas" aria-label="Close">
+        </div>
+        <div class="offcanvas-body d-flex flex-column text-uppercase text-white">
+          <a class="text-white mb-4" href="#">Home</a>
+          <a class="text-white mb-4" href="#">about us</a>
+          <a class="text-white mb-4" href="#">feactures</a>
+          <a class="text-white mb-4" href="#">courses</a>
+          <a class="text-white mb-4" href="#">offer</a>
+          <a class="text-white mb-4" href="#">contact</a>
+        </div>
+      </div>
+
+    </nav>
+    <div class="row mt-5 pt-5">
+      <div class="col-11 col-md-6 ms-4">
+        <h1 class="display-5">The purpose is to <br> teach, bring learning to <br> people</h1>
+        <p class="text-info text-home">
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't lool even slightly believable.
+        </p>
+        <a class="btn btn-outline-primary rounded-0 px-4 py-3 text-dark fw-bold" href="#">Read More</a>
+      </div>
+    </div>
+  </header>
+  <section class="container-fluid">
+    <div class="row mt-5 pt-5">
+      <div class="col-11 col-md-6">
+        <img class="img-fluid" src="assets/img/about.png" alt="about" />
+      </div>
+      <div class="col-11 col-md-5 text-end">
+        <div class="mb-4 py-4">
+          <h2>About Us</h2>
+          <p class="text-info text-home text-home--right">
+            Cras bibendum ipsum vel volutpat ornare. Curabitur efficiour aliquet tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas suscipit efficitur varius. Phasellus at metus eget magna porta vulputate ut sit amet purus. Etiam eget mauris massa. Vivamus at dui rutrum, iaculis massa et, ullamcorper ligula. Integer sollicitudin tempor orci, et dictum enim. Curabitur nec condimentum ante. Morbi et enim eu elit tempor maximus ut et odio. Nulla sit amet suscipit felis, a lacinia mauis. Aenean condimentum maximus iaculis.
+          </p>
+        </div>
+        <h2 class="display-6 fst-italic">
+          <q>Learning is not attainded by chance, it  <br> must be sought for with ardor and <br> attended to with diligence</q>
+          </h2>
+        <p class="text-info fw-bold fst-italic fs-4 mt-4">
+          ---Abigail Adams
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="container-xl my-4 py-5">
+    <div class="row justify-content-center gap-4">
+      <div class="col-11 col-md text-center">
+        <img src="assets/img/pic-1.png" alt="feactures" />
+        <h3>Learn Anywhere</h3>
+        <p>Morbi non urna nec augue blandit varius. Fusce in lobortis.</p>
+      </div>
+      <div class="col-11 col-md text-center">
+        <img src="assets/img/pic-2.png" alt="feactures" />
+        <h3>Expert Teachers</h3>
+        <p>Morbi non urna nec augue blandit varius. Fusce in lobortis.</p>
+      </div>
+      <div class="col-11 col-md text-center">
+        <img src="assets/img/pic-3.png" alt="feactures" />
+        <h3>Ulimited Access</h3>
+        <p>Morbi non urna nec augue blandit varius. Fusce in lobortis.</p>
+      </div>
+    </div>
+  </section>
+  <section class="container-xl my-4 py-4">
+    <div class="row justify-content-center">
+      <div class="col-11 col-md-6">
+        <h2 class="display-5">Browse our top <br> courses</h2>
+        <p class="text-info text-home">
+          Contrary to popular belief, Lorem ipsu, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-</p>
+        <a class="btn btn-outline-primary rounded-0 px-4 py-3 text-dark fw-bold" href="#">View All Courses</a>
+      </div>
+      <div class="col-11 col-md-6 mt-4">
+        <img class="img-fluid" src="assets/img/course.png" alt="course" />
+      </div>
+    </div>
+  </section>
+  <section class="container-xl my-4 py-4">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="display-5">Sign Up to join our <br> learning community</h2>
+        <form class="mt-4">
+          <input class="form-control p-3 border-3 border-primary mt-2" type="text" name="nombre" id="nombre" placeholder="enter name">
+          <input class="form-control p-3 border-3 border-primary mt-2" type="email" name="nombre" id="nombre" placeholder="enter email">
+          <input class="form-control p-3 border-3 border-primary mt-2" type="password" name="nombre" id="nombre" placeholder="enter password">
+          <div class="d-flex gap-2 mt-2">
+            <a class="btn btn-outline-primary rounded-0 px-4 text-dark fw-bold col d-flex align-items-center" href="#">Sign Up</a>
+            <a class="btn btn-outline-primary rounded-0 px-4 py-3 text-dark fw-bold col" href="#">Start Free Trial</a>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-6 mt-4">
+         <img class="img-fluid" src="assets/img/contact.png" alt="contact" />
+      </div>
+    </div>
+  </section>
+  <footer class="container-xl py-4 border-top border-info">
+    <div class="row align-items-center">
+      <div class="col d-flex flex-column">
+        <h3 class="text-primary">About</h3>
+        <a class="my-2 text-info" href="#">Request a Demo</a>
+        <a class="my-2 text-info" href="#">FAQs</a>
+      </div>
+      <div class="col d-flex flex-column">
+        <h3 class="text-primary">Product</h3>
+        <a class="my-2 text-info" href="#">Our Plans</a>
+        <a class="my-2 text-info" href="#">Free Trail</a>
+      </div>
+      <div class="col d-flex flex-column">
+        <h3 class="text-primary">Support</h3>
+        <a class="my-2 text-info" href="#">Features</a>
+        <a class="my-2 text-info" href="#">Contact Us</a>
+      </div>
+      <div class="col d-flex flex-column">
+        <h3 class="text-primary">Explore</h3>
+        <a class="my-2 text-info" href="#">Find a Nonprofit</a>
+        <a class="my-2 text-info" href="#">Corporate Solutions</a>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
